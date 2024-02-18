@@ -1,0 +1,19 @@
+.buttons {
+	width: 7.5rem;
+	height: 43px;
+	border-radius: 7px;
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	border: none;
+	background-color: #fff;
+	&:hover {
+		transition: all 0.4s ease;
+		color: #fff;
+		background-color: rgb(36, 36, 247);
+	}
+	@media (max-width: 767px) {
+		width: 5rem;
+		height: 35px;
+	}
+}
