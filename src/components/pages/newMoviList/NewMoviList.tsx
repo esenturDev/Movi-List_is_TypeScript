@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import scss from "./NewMoviList.module.scss";
 import { MoviList } from "../../types/types";
 import axios from "axios";
